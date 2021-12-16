@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+      <head>
+            <meta charset="UTF-8" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta
+                  name="viewport"
+                  content="width=device-width, initial-scale=1.0"
+            />
+            <!-- <%= htmlWebpackPlugin.tags.headTags %> -->
+
+            <title><%= htmlWebpackPlugin.options.title %></title>
+      </head>
+      <body>
+            <h1><%= htmlWebpackPlugin.options.myCustomOption %></h1>
+
+            <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Officiis quasi pariatur sit ullam.
+            </p>
+
+            <hr />
+            <img src=<%= require("./assets/nodejs.jpg") %> width="200"
+            height="200" alt="" />
+            <hr />
+
+            <%= htmlWebpackPlugin.tags.bodyTags %>
+      </body>
+</html>

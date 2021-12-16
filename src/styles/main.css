@@ -1,0 +1,10 @@
+:root {
+      --text: #200;
+}
+
+body {
+      height: 100vh;
+      width: 100vw;
+      background-color: red;
+      color: var(--text);
+}
